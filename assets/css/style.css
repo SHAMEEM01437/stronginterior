@@ -769,7 +769,22 @@ h1.we_are_title{
 /* -----------------------------------------------------------------
 Our Services
 ------------------------------------------------------------------- */
-/* 
+
+.service_item {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 30px;
+}
+
+.serive_img {
+    background: #fae;
+}
+
+.serive_content {
+    background: #fff;
+    padding: 30px;
+}
+ 
 .Our_services{
     background:#F1F1F1;
 }
@@ -778,7 +793,7 @@ Our Services
     text-align:center;
     color:#9E9889;
     margin-bottom:10px;
-} */
+}
 /* 
 span.bt_bb_headline_superheadline {
     font-size:14px;
