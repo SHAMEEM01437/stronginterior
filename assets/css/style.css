@@ -777,7 +777,18 @@ Our Services
 }
 
 .serive_img {
-    background: #fae;
+    background: url(../../images/guest_room.jpg);
+    background-size:cover;
+    positioin:relative;
+}
+.serive_img:after{
+	position:absolute;
+	top:0;
+	left:0;
+	content:'';
+	width:100%;
+	height:100%;
+	background:#000;
 }
 
 .serive_content {
